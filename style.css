@@ -1,0 +1,82 @@
+body{
+    border: 3px solid black;
+    width: 700px;
+    height: 290px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.dollars{
+    margin-left: 20px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+h3::before{
+    position: absolute;
+    background-color:darkgrey;
+    text-align: center;
+    content: "SALE";
+    background-color: red;
+    top: 25px;
+    left:310px ;
+    color: white;
+}
+span{
+    text-decoration: underline;
+    
+}
+.div1{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+}
+.div1{
+    
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.div2{
+    
+    background-color:darkblue;
+    width: 15px;
+    height: 15px;
+}
+.div3{
+    background-color:brown;
+    width: 15px;
+    height: 15px;
+}
+.div4{
+    background-color:darkorange;
+    width: 15px;
+    height: 15px;
+}
+.div5{
+    background-color:chartreuse;
+    width: 15px;
+    height: 15px;
+}
+.div6{
+    background-color:chocolate;
+    width: 15px;
+    height: 15px;
+}
+.container{
+    display:flex;
+    column-gap: 15px;
+}
+.containerSup{
+    display: flex;
+}
+footer{
+  display: flex;
+  align-items: center;
+    background-color: black;
+    justify-content: center;
+    color:white;
+    height: 50px;
+    
+}
